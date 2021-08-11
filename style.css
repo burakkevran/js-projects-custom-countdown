@@ -140,7 +140,8 @@ li span {
 
 @keyframes complete {
   0% {
-    color:rgb(223, 30, 30)
+    color:rgb(223, 30, 30);
+    filter: opacity(0%);
   }
 
   25% {
@@ -150,6 +151,7 @@ li span {
   50% {
     color:rgb(32, 136, 23);
     transform: scale(1.2);
+    filter: opacity(100%);
   }
 
   75% {
@@ -157,6 +159,7 @@ li span {
   }
   100% {
     color:rgb(20, 23, 165);
+    filter: opacity(0%);
   }
 }
 
